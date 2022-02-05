@@ -4,7 +4,7 @@ import datetime
 import multiprocessing
 
 from playsound import playsound
-p = multiprocessing.Process(target=playsound, args=("hl2-one-guard-down.mp3",))
+p = multiprocessing.Process(target=playsound, args=("audio/hl2-one-guard-down.mp3",))
 
 set_time = input("set the time: \n")
 
